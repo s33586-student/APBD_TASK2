@@ -30,6 +30,6 @@ public class User
     
     public override string ToString()
     {
-        return $"{Id}: {Name} {Surname} ({Type})";
+        return $"{Name} {Surname} ({Type})";
     }
 }

@@ -10,7 +10,7 @@ public class Rental
     public User User { get; }
     public Equipment Equipment { get; }
     public DateTime RentalDate { get; }
-    public DateTime DueDate { get; }
+    public DateTime DueDate { get; set; } // set; here only for demonstration
     public DateTime? ReturnDate { get; set; }
     public decimal Penalty { get; set; }
 
@@ -43,5 +43,10 @@ public class Rental
         Equipment.Status = EquipmentStatus.Available;
         ReturnDate = returnDate;
         Penalty = penalty;
+    }
+    
+    public override string ToString()
+    {
+        return $"{Id}: {Equipment} rented by {User} ";
     }
 }
