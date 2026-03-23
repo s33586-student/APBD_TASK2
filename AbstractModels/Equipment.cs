@@ -1,6 +1,6 @@
 ﻿using APBD_TASK2.Enums;
 
-namespace APBD_TASK2.Models;
+namespace APBD_TASK2.AbstractModels;
 
 public abstract class Equipment
 {

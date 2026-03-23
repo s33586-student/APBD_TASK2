@@ -1,4 +1,4 @@
-﻿namespace APBD_TASK2.Models;
+﻿namespace APBD_TASK2.AbstractModels;
 
 public class Projector: Equipment
 {

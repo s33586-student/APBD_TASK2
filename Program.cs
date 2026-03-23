@@ -1,4 +1,5 @@
-﻿using APBD_TASK2.Models;
+﻿using APBD_TASK2.AbstractModels;
+using APBD_TASK2.Models;
 
 public class Program
 {

@@ -1,4 +1,4 @@
-﻿namespace APBD_TASK2.Models;
+﻿using APBD_TASK2.AbstractModels;
 
 public class Laptop: Equipment
 {

@@ -27,4 +27,9 @@ public class User
         Surname = surname;
         Type = type;
     }
+    
+    public override string ToString()
+    {
+        return $"{Id}: {Name} {Surname} ({Type})";
+    }
 }
